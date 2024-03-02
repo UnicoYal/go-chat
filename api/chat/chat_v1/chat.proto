@@ -15,8 +15,8 @@ service ChatV1 {
 }
 
 message Message {
-  string from = 1;
-  string text = 2;
+  string from_user = 1;
+  string content = 2;
   google.protobuf.Timestamp created_at = 3;
 }
 
